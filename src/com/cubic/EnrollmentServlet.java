@@ -19,7 +19,10 @@ public class EnrollmentServlet extends HttpServlet {
 		
 		PrintWriter pw=response.getWriter();
 		
-		pw.println("Thank you");
+		String name=request.getParameter("childName");
+		String age=request.getParameter("childAge");
+		String program=request.getParameter("program");
+		pw.println(name+" Who is "+age+" years old is enrolled in "+program+" program");
 	}
 
 }
