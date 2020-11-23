@@ -14,7 +14,7 @@
 <input type="submit" value="Enroll">
 </form><br/>
 
-<form action="">
+<form action="Prices.jsp">
 <input type="submit" value="Prices">
 </form><br/>
 
